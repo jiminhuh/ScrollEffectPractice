@@ -8,6 +8,31 @@ body, html {
     color: #666;
 }
 
+header {
+    background-color: #f4f4f4;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 3em;
+}
+
+.navbar ul li {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a {
+    padding: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
 .pimg1, .pimg2, .pimg3 {
     position: relative;
     opacity: 0.70;
@@ -74,6 +99,7 @@ body, html {
     .pimg1, .pimg2, .pimg3 {
         background-attachment: scroll;
     }
+
     .ptext .border{
         background-color: transparent;
     }
